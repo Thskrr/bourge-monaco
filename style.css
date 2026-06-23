@@ -14,24 +14,18 @@ body{
   color:#ffffff;
 }
 
-/* HEADER */
-
 .header{
   position:fixed;
   top:0;
   left:0;
   width:100%;
   z-index:999;
-
   display:flex;
   justify-content:center;
   align-items:center;
-
   padding:24px 0;
-
   background:rgba(17,17,17,0.95);
   backdrop-filter:blur(10px);
-
   border-bottom:1px solid rgba(255,255,255,0.08);
 }
 
@@ -45,15 +39,13 @@ nav{
   display:none;
 }
 
-/* HERO */
-
 .hero{
   min-height:100vh;
   display:grid;
   grid-template-columns:1fr 1fr;
   align-items:center;
-  gap:80px;
-  padding:140px 7% 80px;
+  gap:100px;
+  padding:160px 7% 100px;
 }
 
 .drop,
@@ -66,11 +58,20 @@ nav{
   margin-bottom:20px;
 }
 
+.hero h1,
+.section h2,
+.product h2,
+.benefits h2,
+.faq h2,
+.final-cta h2{
+  font-family:'Cormorant Garamond',serif;
+}
+
 .hero h1{
-  font-size:100px;
+  font-size:108px;
   line-height:0.95;
   margin-bottom:20px;
-  font-weight:700;
+  font-weight:500;
   letter-spacing:4px;
   color:#ffffff;
 }
@@ -95,13 +96,14 @@ nav{
   max-width:600px;
 }
 
-.hero-img img{
+.hero-img img,
+.section img,
+.product-card img{
   width:100%;
   display:block;
   object-fit:cover;
+  border-radius:22px;
 }
-
-/* BOTÕES */
 
 .btn{
   display:inline-block;
@@ -125,8 +127,6 @@ nav{
   color:#111111;
 }
 
-/* SEÇÕES */
-
 .section{
   padding:120px 7%;
   background:#111111;
@@ -147,24 +147,16 @@ nav{
   direction:ltr;
 }
 
-.section img{
-  width:100%;
-  display:block;
-}
-
 .section h2,
 .product h2,
 .benefits h2,
-.faq h2,
-.final-cta h2{
-  font-size:52px;
-  font-weight:400;
-  line-height:1.1;
+.faq h2{
+  font-size:56px;
+  font-weight:500;
+  line-height:1.05;
   margin-bottom:25px;
   color:#ffffff;
 }
-
-/* SESSÃO TECIDO INVERTIDA */
 
 .dark{
   background:#ffffff;
@@ -182,8 +174,6 @@ nav{
 .dark .small-title{
   color:#777777;
 }
-
-/* BENEFÍCIOS */
 
 .benefits{
   padding:120px 7%;
@@ -205,9 +195,8 @@ nav{
   text-transform:uppercase;
   font-size:13px;
   letter-spacing:1px;
+  border-radius:18px;
 }
-
-/* PRODUTO */
 
 .product{
   padding:120px 7%;
@@ -220,11 +209,8 @@ nav{
   gap:70px;
   align-items:center;
   background:#161616;
-  padding:50px;
-}
-
-.product-card img{
-  width:100%;
+  padding:60px;
+  border-radius:22px;
 }
 
 .price{
@@ -233,8 +219,6 @@ nav{
   margin-bottom:20px;
   font-weight:600;
 }
-
-/* FAQ */
 
 .faq{
   padding:120px 7%;
@@ -261,10 +245,8 @@ details p{
   margin-top:15px;
 }
 
-/* CTA FINAL */
-
 .final-cta{
-  padding:140px 7%;
+  padding:180px 7%;
   text-align:center;
   background:#111111;
   color:#ffffff;
@@ -282,10 +264,9 @@ details p{
 }
 
 .final-cta h2{
-  font-size:80px;
+  font-size:90px;
+  font-weight:500;
 }
-
-/* FOOTER */
 
 footer{
   padding:35px;
@@ -295,8 +276,6 @@ footer{
   font-size:13px;
   letter-spacing:1px;
 }
-
-/* RESPONSIVO */
 
 @media(max-width:900px){
 
