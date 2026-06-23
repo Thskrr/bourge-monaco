@@ -417,5 +417,17 @@ footer{
 
   footer{
     padding:28px 20px;
-  }
 }
+
+.btn-dark{
+    display:inline-block;
+    margin-top:30px;
+    padding:16px 34px;
+    background:#111111;
+    color:#ffffff;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:12px;
+    letter-spacing:1.5px;
+    border-radius:8px;
+}}
