@@ -31,10 +31,11 @@ body{
 }
 
 .logo img{
-  height:28px;
-  width:auto;
-  display:block;
+    height:45px;
+    width:auto;
+    display:block;
 }
+
 
 nav{
   display:flex;
@@ -304,7 +305,7 @@ footer{
   }
 
   .logo img{
-    height:44px;
+    height:70px;
   }
 
   nav{
