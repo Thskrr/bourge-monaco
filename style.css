@@ -10,50 +10,39 @@ html{
 
 body{
   font-family:'Inter',sans-serif;
-  background:#F7F5F1;
-  color:#111;
+  background:#111111;
+  color:#ffffff;
 }
 
 /* HEADER */
 
 .header{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:999;
 
-    z-index:999;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
+  padding:24px 0;
 
-    padding:24px 0;
+  background:rgba(17,17,17,0.95);
+  backdrop-filter:blur(10px);
 
-    background:rgba(247,245,241,0.95);
-    backdrop-filter:blur(10px);
-
-    border-bottom:1px solid rgba(0,0,0,0.06);
+  border-bottom:1px solid rgba(255,255,255,0.08);
 }
 
 .logo img{
-    height:45px;
-    width:auto;
-    display:block;
+  height:55px;
+  width:auto;
+  display:block;
 }
-
 
 nav{
-  display:flex;
-  gap:35px;
-}
-
-nav a{
-  text-decoration:none;
-  color:#111;
-  font-size:12px;
-  text-transform:uppercase;
-  letter-spacing:1.5px;
+  display:none;
 }
 
 /* HERO */
@@ -73,7 +62,7 @@ nav a{
   font-size:12px;
   text-transform:uppercase;
   letter-spacing:3px;
-  color:#888;
+  color:#9c9c9c;
   margin-bottom:20px;
 }
 
@@ -83,19 +72,21 @@ nav a{
   margin-bottom:20px;
   font-weight:700;
   letter-spacing:4px;
+  color:#ffffff;
 }
 
 .hero h2{
   font-size:28px;
   font-weight:400;
   margin-bottom:25px;
+  color:#ffffff;
 }
 
 .hero p,
 .section p,
 .product p,
 .faq p{
-  color:#555;
+  color:#cfcfcf;
   font-size:17px;
   line-height:1.8;
 }
@@ -116,8 +107,8 @@ nav a{
   display:inline-block;
   margin-top:35px;
   padding:16px 34px;
-  background:#111;
-  color:#fff;
+  background:#ffffff;
+  color:#111111;
   text-decoration:none;
   text-transform:uppercase;
   font-size:12px;
@@ -130,14 +121,15 @@ nav a{
 }
 
 .light{
-  background:#fff;
-  color:#111;
+  background:#ffffff;
+  color:#111111;
 }
 
 /* SEÇÕES */
 
 .section{
   padding:120px 7%;
+  background:#111111;
 }
 
 .two-columns{
@@ -169,21 +161,26 @@ nav a{
   font-weight:400;
   line-height:1.1;
   margin-bottom:25px;
+  color:#ffffff;
 }
 
-/* TECIDO ESCURO */
+/* SESSÃO TECIDO INVERTIDA */
 
 .dark{
-  background:#111;
-  color:#fff;
+  background:#ffffff;
+  color:#111111;
+}
+
+.dark h2{
+  color:#111111;
 }
 
 .dark p{
-  color:#cfcfcf;
+  color:#555555;
 }
 
 .dark .small-title{
-  color:#999;
+  color:#777777;
 }
 
 /* BENEFÍCIOS */
@@ -191,7 +188,7 @@ nav a{
 .benefits{
   padding:120px 7%;
   text-align:center;
-  background:#fff;
+  background:#111111;
 }
 
 .benefits-grid{
@@ -202,7 +199,8 @@ nav a{
 }
 
 .benefits-grid div{
-  border:1px solid #ddd;
+  border:1px solid rgba(255,255,255,0.15);
+  color:#ffffff;
   padding:30px;
   text-transform:uppercase;
   font-size:13px;
@@ -213,6 +211,7 @@ nav a{
 
 .product{
   padding:120px 7%;
+  background:#111111;
 }
 
 .product-card{
@@ -220,7 +219,7 @@ nav a{
   grid-template-columns:1fr 1fr;
   gap:70px;
   align-items:center;
-  background:#fff;
+  background:#161616;
   padding:50px;
 }
 
@@ -230,7 +229,7 @@ nav a{
 
 .price{
   font-size:32px !important;
-  color:#111 !important;
+  color:#ffffff !important;
   margin-bottom:20px;
   font-weight:600;
 }
@@ -239,7 +238,7 @@ nav a{
 
 .faq{
   padding:120px 7%;
-  background:#fff;
+  background:#111111;
 }
 
 .faq h2{
@@ -247,7 +246,7 @@ nav a{
 }
 
 details{
-  border-bottom:1px solid #ddd;
+  border-bottom:1px solid rgba(255,255,255,0.15);
   padding:25px 0;
 }
 
@@ -255,6 +254,7 @@ summary{
   cursor:pointer;
   font-size:18px;
   font-weight:500;
+  color:#ffffff;
 }
 
 details p{
@@ -266,8 +266,8 @@ details p{
 .final-cta{
   padding:140px 7%;
   text-align:center;
-  background:#111;
-  color:#fff;
+  background:#111111;
+  color:#ffffff;
 }
 
 .final-cta p{
@@ -311,7 +311,7 @@ footer{
   }
 
   .logo img{
-    height:70px;
+    height:80px;
   }
 
   nav{
