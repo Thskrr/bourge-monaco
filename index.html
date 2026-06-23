@@ -1,191 +1,290 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Bourgê — Mônaco</title>
-  <meta name="description" content="Mônaco, a polo preta essencial da Bourgê. Presence Without Noise." />
+  <title>Bourgê — MÔNACO</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <header class="header">
-    <a href="#" class="logo">
-      <img src="imagens/logo.png" alt="Bourgê">
+<header class="header">
+
+  <a href="#" class="logo">
+    <img src="imagens/logo.png" alt="Bourgê">
+  </a>
+
+  <nav>
+    <a href="#caimento">Caimento</a>
+    <a href="#tecido">Tecido</a>
+    <a href="#comprar">Comprar</a>
+  </nav>
+
+</header>
+
+<main>
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <div class="hero-text">
+
+      <span class="drop">
+        Primeira edição
+      </span>
+
+      <h1>MÔNACO</h1>
+
+      <h2>Presence Without Noise.</h2>
+
+      <p>
+        Inspirada na elegância discreta da Riviera, Mônaco é uma polo criada para quem entende que presença não precisa de excesso.
+      </p>
+
+      <a href="#comprar" class="btn">
+        Garantir minha unidade
+      </a>
+
+    </div>
+
+    <div class="hero-img">
+      <img src="imagens/polo.jpg" alt="Polo Bourgê Mônaco">
+    </div>
+
+  </section>
+
+  <!-- CAIMENTO -->
+
+  <section class="section two-columns" id="caimento">
+
+    <div class="image-block">
+      <img src="imagens/polo.jpg" alt="Caimento">
+    </div>
+
+    <div class="text-block">
+
+      <span class="small-title">
+        Caimento
+      </span>
+
+      <h2>
+        Feita para acompanhar diferentes momentos.
+      </h2>
+
+      <p>
+        Do trabalho ao jantar. Do cotidiano às ocasiões mais alinhadas. Uma modelagem pensada para oferecer conforto, presença e versatilidade sem exageros.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- BORDADO -->
+
+  <section class="section two-columns reverse">
+
+    <div class="text-block">
+
+      <span class="small-title">
+        Bordado
+      </span>
+
+      <h2>
+        O luxo está nos detalhes.
+      </h2>
+
+      <p>
+        Bordado preto sobre preto. Discreto o suficiente para não chamar atenção. Marcante o suficiente para ser reconhecido.
+      </p>
+
+    </div>
+
+    <div class="image-block">
+      <img src="imagens/polo.jpg" alt="Bordado">
+    </div>
+
+  </section>
+
+  <!-- TECIDO -->
+
+  <section class="section dark two-columns" id="tecido">
+
+    <div class="image-block">
+      <img src="imagens/polo.jpg" alt="Tecido">
+    </div>
+
+    <div class="text-block">
+
+      <span class="small-title">
+        Tecido
+      </span>
+
+      <h2>
+        Conforto que permanece.
+      </h2>
+
+      <p>
+        Desenvolvida em malha de toque confortável, estrutura firme e excelente respirabilidade.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- EMBALAGEM -->
+
+  <section class="section two-columns">
+
+    <div class="text-block">
+
+      <span class="small-title">
+        Embalagem
+      </span>
+
+      <h2>
+        A experiência começa antes da peça.
+      </h2>
+
+      <p>
+        Cada pedido é enviado em embalagem exclusiva Bourgê, criada para transformar a entrega em parte da experiência.
+      </p>
+
+    </div>
+
+    <div class="image-block">
+      <img src="imagens/polo.jpg" alt="Embalagem Bourgê">
+    </div>
+
+  </section>
+
+  <!-- BENEFÍCIOS -->
+
+  <section class="benefits">
+
+    <span class="small-title">
+      Benefícios
+    </span>
+
+    <h2>
+      O que a MÔNACO entrega
+    </h2>
+
+    <div class="benefits-grid">
+
+      <div>Toque confortável</div>
+      <div>Respirabilidade</div>
+      <div>Estrutura firme</div>
+      <div>Bordado discreto</div>
+      <div>Embalagem premium</div>
+      <div>Compra segura</div>
+
+    </div>
+
+  </section>
+
+  <!-- PRODUTO -->
+
+  <section class="product" id="comprar">
+
+    <div class="product-card">
+
+      <img src="imagens/polo.jpg" alt="Mônaco">
+
+      <div>
+
+        <span class="small-title">
+          Bourgê
+        </span>
+
+        <h2>MÔNACO</h2>
+
+        <p class="price">
+          R$129,00
+        </p>
+
+        <p>
+          Primeira edição produzida em quantidade limitada.
+        </p>
+
+        <a href="#" class="btn">
+          Garantir minha unidade
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FAQ -->
+
+  <section class="faq">
+
+    <h2>Perguntas frequentes</h2>
+
+    <details>
+      <summary>Qual é o tecido?</summary>
+      <p>Malha confortável com excelente respirabilidade e estrutura.</p>
+    </details>
+
+    <details>
+      <summary>Qual o prazo de envio?</summary>
+      <p>Calculado automaticamente no checkout.</p>
+    </details>
+
+    <details>
+      <summary>Posso trocar?</summary>
+      <p>Sim, conforme a política da Bourgê.</p>
+    </details>
+
+    <details>
+      <summary>Como funciona o pagamento?</summary>
+      <p>Pix e cartão através da Nuvemshop.</p>
+    </details>
+
+    <details>
+      <summary>A peça é limitada?</summary>
+      <p>Sim. Faz parte do Drop 001.</p>
+    </details>
+
+  </section>
+
+  <!-- CTA FINAL -->
+
+  <section class="final-cta">
+
+    <h2>MÔNACO</h2>
+
+    <p>
+      Presence Without Noise.
+    </p>
+
+    <span>
+      Estoque limitado.
+    </span>
+
+    <a href="#" class="btn light">
+      Comprar agora
     </a>
 
-    <nav class="nav">
-      <a href="#caimento">Caimento</a>
-      <a href="#tecido">Tecido</a>
-      <a href="#comprar">Comprar</a>
-    </nav>
-  </header>
+  </section>
 
-  <main>
+</main>
 
-    <section class="hero">
-      <div class="hero-text">
-        <span class="eyebrow">Primeira edição</span>
-        <h1>MÔNACO</h1>
-        <h2>Presence Without Noise.</h2>
-        <p>
-          Inspirada na elegância discreta da Riviera, Mônaco é uma polo criada
-          para quem entende que presença não precisa de excesso.
-        </p>
-        <a href="#comprar" class="btn">Garantir minha unidade</a>
-      </div>
+<footer>
+  BOURGÊ — Presence Without Noise.
+</footer>
 
-      <div class="hero-img">
-        <img src="imagens/polo.jpg" alt="Polo preta Bourgê Mônaco">
-      </div>
-    </section>
+<script src="script.js"></script>
 
-    <section id="caimento" class="section two-columns">
-      <div class="image-block">
-        <img src="imagens/polo.jpg" alt="Caimento da Polo Bourgê Mônaco">
-      </div>
-
-      <div class="text-block">
-        <span class="eyebrow">Caimento</span>
-        <h2>Feita para acompanhar diferentes momentos.</h2>
-        <p>
-          Do trabalho ao jantar. Do cotidiano às ocasiões mais alinhadas.
-          Uma modelagem pensada para oferecer conforto, presença e versatilidade
-          sem exageros.
-        </p>
-      </div>
-    </section>
-
-    <section class="section two-columns reverse">
-      <div class="text-block">
-        <span class="eyebrow">O detalhe</span>
-        <h2>O luxo está nos detalhes.</h2>
-        <p>
-          Bordado preto sobre preto. Discreto o suficiente para não chamar atenção.
-          Marcante o suficiente para ser reconhecido.
-        </p>
-      </div>
-
-      <div class="image-block">
-        <img src="imagens/polo.jpg" alt="Detalhe do bordado Bourgê">
-      </div>
-    </section>
-
-    <section id="tecido" class="section dark two-columns">
-      <div class="image-block">
-        <img src="imagens/polo.jpg" alt="Tecido da Polo Mônaco">
-      </div>
-
-      <div class="text-block">
-        <span class="eyebrow">Tecido</span>
-        <h2>Conforto que permanece.</h2>
-        <p>
-          Desenvolvida em malha de toque macio, estrutura firme e excelente
-          respirabilidade. Uma peça feita para manter aparência e conforto durante
-          todo o dia.
-        </p>
-      </div>
-    </section>
-
-    <section class="section two-columns">
-      <div class="text-block">
-        <span class="eyebrow">Experiência</span>
-        <h2>A experiência começa antes da peça.</h2>
-        <p>
-          Cada pedido é enviado em embalagem exclusiva Bourgê, criada para
-          transformar a entrega em parte da experiência.
-        </p>
-      </div>
-
-      <div class="image-block">
-        <img src="imagens/polo.jpg" alt="Embalagem Bourgê">
-      </div>
-    </section>
-
-    <section class="benefits">
-      <span class="eyebrow">Benefícios</span>
-      <h2>O que a Mônaco entrega</h2>
-
-      <div class="benefits-grid">
-        <div>Toque confortável</div>
-        <div>Boa respirabilidade</div>
-        <div>Estrutura encorpada</div>
-        <div>Bordado discreto</div>
-        <div>Embalagem premium</div>
-        <div>Compra segura</div>
-        <div>Troca facilitada</div>
-      </div>
-    </section>
-
-    <section id="comprar" class="product">
-      <div class="product-card">
-        <img src="imagens/polo.jpg" alt="Polo Bourgê Mônaco">
-
-        <div class="product-info">
-          <span class="eyebrow">Bourgê</span>
-          <h2>MÔNACO</h2>
-          <p class="price">R$ 129,00</p>
-
-          <p>
-            Primeira edição produzida em quantidade limitada. Uma peça criada
-            para quem valoriza qualidade, discrição e presença.
-          </p>
-
-          <a href="#" class="btn">Garantir minha unidade</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="faq">
-      <span class="eyebrow">FAQ</span>
-      <h2>Perguntas frequentes</h2>
-
-      <details>
-        <summary>Qual é a composição do tecido?</summary>
-        <p>Malha confortável, com estrutura firme e toque macio. A composição final será informada na etiqueta da peça.</p>
-      </details>
-
-      <details>
-        <summary>Qual o prazo de envio?</summary>
-        <p>O prazo será calculado no checkout conforme o CEP informado.</p>
-      </details>
-
-      <details>
-        <summary>Posso realizar trocas?</summary>
-        <p>Sim. As trocas seguirão a política oficial da Bourgê.</p>
-      </details>
-
-      <details>
-        <summary>Quais formas de pagamento são aceitas?</summary>
-        <p>Pix e cartão de crédito, conforme disponibilidade no checkout.</p>
-      </details>
-
-      <details>
-        <summary>A peça possui quantidade limitada?</summary>
-        <p>Sim. A Mônaco faz parte da primeira edição da Bourgê.</p>
-      </details>
-    </section>
-
-    <section class="final-cta">
-      <h2>MÔNACO</h2>
-      <p>Presence Without Noise.</p>
-      <span>Estoque limitado.</span>
-      <a href="#" class="btn light">Comprar agora</a>
-    </section>
-
-  </main>
-
-  <footer class="footer">
-    <p>BOURGÊ — Presence Without Noise.</p>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
