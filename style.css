@@ -35,9 +35,7 @@ body{
   display:block;
 }
 
-nav{
-  display:none;
-}
+nav{ display:none; }
 
 .hero{
   min-height:100vh;
@@ -48,8 +46,7 @@ nav{
   padding:160px 7% 100px;
 }
 
-.drop,
-.small-title{
+.drop,.small-title{
   display:inline-block;
   font-size:12px;
   text-transform:uppercase;
@@ -58,47 +55,35 @@ nav{
   margin-bottom:20px;
 }
 
-.hero h1,
-.section h2,
-.product h2,
-.benefits h2,
-.faq h2,
-.final-cta h2{
+.hero h1,.section h2,.product h2,.benefits h2,.faq h2,.final-cta h2{
   font-family:'Cormorant Garamond',serif;
 }
 
 .hero h1{
   font-size:108px;
-  line-height:0.95;
+  line-height:.95;
   margin-bottom:20px;
   font-weight:500;
   letter-spacing:4px;
-  color:#ffffff;
+  color:#fff;
 }
 
 .hero h2{
   font-size:28px;
   font-weight:400;
   margin-bottom:25px;
-  color:#ffffff;
+  color:#fff;
 }
 
-.hero p,
-.section p,
-.product p,
-.faq p{
+.hero p,.section p,.product p,.faq p{
   color:#cfcfcf;
   font-size:17px;
   line-height:1.8;
 }
 
-.hero-text{
-  max-width:600px;
-}
+.hero-text{ max-width:600px; }
 
-.hero-img img,
-.section img,
-.product-card img{
+.hero-img img,.section img,.product-card img{
   width:100%;
   display:block;
   object-fit:cover;
@@ -109,27 +94,38 @@ nav{
   display:inline-block;
   margin-top:35px;
   padding:16px 34px;
-  background:#ffffff;
-  color:#111111;
+  background:#fff;
+  color:#111;
   text-decoration:none;
   text-transform:uppercase;
   font-size:12px;
   letter-spacing:1.5px;
-  transition:0.3s;
+  transition:.3s;
 }
 
-.btn:hover{
-  opacity:.8;
-}
+.btn:hover{ opacity:.8; }
 
 .light{
-  background:#ffffff;
-  color:#111111;
+  background:#fff;
+  color:#111;
+}
+
+.btn-dark{
+  display:inline-block;
+  margin-top:30px;
+  padding:16px 34px;
+  background:#111;
+  color:#fff;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:12px;
+  letter-spacing:1.5px;
+  border-radius:8px;
 }
 
 .section{
   padding:120px 7%;
-  background:#111111;
+  background:#111;
 }
 
 .two-columns{
@@ -139,46 +135,30 @@ nav{
   align-items:center;
 }
 
-.reverse{
-  direction:rtl;
-}
+.reverse{ direction:rtl; }
+.reverse>*{ direction:ltr; }
 
-.reverse>*{
-  direction:ltr;
-}
-
-.section h2,
-.product h2,
-.benefits h2,
-.faq h2{
+.section h2,.product h2,.benefits h2,.faq h2{
   font-size:56px;
   font-weight:500;
   line-height:1.05;
   margin-bottom:25px;
-  color:#ffffff;
+  color:#fff;
 }
 
 .dark{
-  background:#ffffff;
-  color:#111111;
+  background:#fff;
+  color:#111;
 }
 
-.dark h2{
-  color:#111111;
-}
-
-.dark p{
-  color:#555555;
-}
-
-.dark .small-title{
-  color:#777777;
-}
+.dark h2{ color:#111; }
+.dark p{ color:#555; }
+.dark .small-title{ color:#777; }
 
 .benefits{
   padding:120px 7%;
   text-align:center;
-  background:#111111;
+  background:#111;
 }
 
 .benefits-grid{
@@ -189,8 +169,8 @@ nav{
 }
 
 .benefits-grid div{
-  border:1px solid rgba(255,255,255,0.15);
-  color:#ffffff;
+  border:1px solid rgba(255,255,255,.15);
+  color:#fff;
   padding:30px;
   text-transform:uppercase;
   font-size:13px;
@@ -200,7 +180,7 @@ nav{
 
 .product{
   padding:120px 7%;
-  background:#111111;
+  background:#111;
 }
 
 .product-card{
@@ -214,23 +194,21 @@ nav{
 }
 
 .price{
-  font-size:32px !important;
-  color:#ffffff !important;
+  font-size:32px!important;
+  color:#fff!important;
   margin-bottom:20px;
   font-weight:600;
 }
 
 .faq{
   padding:120px 7%;
-  background:#111111;
+  background:#111;
 }
 
-.faq h2{
-  margin-bottom:50px;
-}
+.faq h2{ margin-bottom:50px; }
 
 details{
-  border-bottom:1px solid rgba(255,255,255,0.15);
+  border-bottom:1px solid rgba(255,255,255,.15);
   padding:25px 0;
 }
 
@@ -238,18 +216,20 @@ summary{
   cursor:pointer;
   font-size:18px;
   font-weight:500;
-  color:#ffffff;
+  color:#fff;
+  text-align:center;
 }
 
-details p{
-  margin-top:15px;
+details p{ 
+  margin-top:15px; 
+  text-align:center;
 }
 
 .final-cta{
   padding:180px 7%;
   text-align:center;
-  background:#111111;
-  color:#ffffff;
+  background:#111;
+  color:#fff;
 }
 
 .final-cta p{
@@ -285,17 +265,11 @@ footer{
     padding:24px 20px;
   }
 
-  .logo{
-    margin:auto;
-  }
+  .logo{ margin:auto; }
 
-  .logo img{
-    height:80px;
-  }
+  .logo img{ height:80px; }
 
-  nav{
-    display:none;
-  }
+  nav{ display:none; }
 
   .hero{
     min-height:auto;
@@ -303,12 +277,33 @@ footer{
     flex-direction:column;
     padding:50px 22px 70px;
     gap:30px;
-    text-align:left;
+    text-align:center;
   }
 
   .hero-text{
     order:1;
     max-width:100%;
+    text-align:center;
+    margin:auto;
+  }
+
+  .text-block{
+    text-align:center;
+    margin:auto;
+  }
+
+  .hero,
+  .section,
+  .product,
+  .faq,
+  .final-cta{
+    text-align:center;
+  }
+
+  .small-title,
+  .drop{
+    width:100%;
+    text-align:center;
   }
 
   .hero-img{
@@ -329,67 +324,48 @@ footer{
     letter-spacing:2px;
   }
 
-  .hero h2{
-    font-size:22px;
-  }
+  .hero h2{ font-size:22px; }
 
-  .hero p,
-  .section p,
-  .product p,
-  .faq p{
+  .hero p,.section p,.product p,.faq p{
     font-size:15px;
     line-height:1.75;
   }
 
-  .btn{
+  .btn,.btn-dark{
     width:100%;
     text-align:center;
     padding:17px 20px;
     font-size:11px;
+    margin-left:auto;
+    margin-right:auto;
   }
 
-  .section{
-    padding:75px 22px;
-  }
+  .section{ padding:75px 22px; }
 
-  .two-columns,
-  .product-card{
+  .two-columns,.product-card{
     display:flex;
     flex-direction:column;
     gap:30px;
   }
 
-  .two-columns .text-block{
-    order:1;
-  }
+  .two-columns .text-block{ order:1; }
+  .two-columns .image-block{ order:2; }
 
-  .two-columns .image-block{
-    order:2;
-  }
+  .reverse{ direction:ltr; }
 
-  .reverse{
-    direction:ltr;
-  }
-
-  .section img,
-  .product-card img{
+  .section img,.product-card img{
     width:100%;
     max-height:420px;
     object-fit:cover;
     border-radius:18px;
   }
 
-  .section h2,
-  .product h2,
-  .benefits h2,
-  .faq h2{
+  .section h2,.product h2,.benefits h2,.faq h2{
     font-size:34px;
     line-height:1.1;
   }
 
-  .benefits,
-  .product,
-  .faq{
+  .benefits,.product,.faq{
     padding:75px 22px;
   }
 
@@ -398,9 +374,7 @@ footer{
     gap:12px;
   }
 
-  .benefits-grid div{
-    padding:22px 18px;
-  }
+  .benefits-grid div{ padding:22px 18px; }
 
   .product-card{
     padding:0;
@@ -411,23 +385,7 @@ footer{
     padding:90px 22px;
   }
 
-  .final-cta h2{
-    font-size:58px;
-  }
+  .final-cta h2{ font-size:58px; }
 
-  footer{
-    padding:28px 20px;
+  footer{ padding:28px 20px; }
 }
-
-.btn-dark{
-    display:inline-block;
-    margin-top:30px;
-    padding:16px 34px;
-    background:#111111;
-    color:#ffffff;
-    text-decoration:none;
-    text-transform:uppercase;
-    font-size:12px;
-    letter-spacing:1.5px;
-    border-radius:8px;
-}}
