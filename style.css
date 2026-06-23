@@ -257,6 +257,30 @@ footer{
   letter-spacing:1px;
 }
 
+.footer-links{
+  margin-top:15px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:14px;
+}
+
+.footer-links a{
+  color:#ffffff;
+  text-decoration:none;
+  font-size:13px;
+  letter-spacing:1px;
+  transition:.3s;
+}
+
+.footer-links a:hover{
+  opacity:.7;
+}
+
+.footer-links span{
+  color:#666666;
+}
+
 @media(max-width:900px){
 
   .header{
